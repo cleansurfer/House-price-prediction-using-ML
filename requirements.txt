@@ -1,6 +1,0 @@
-modelzoo-client[transformers]
-googleapiclient.discovery
-pandas
-transformers
-emoji
-re
