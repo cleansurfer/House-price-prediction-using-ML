@@ -8,46 +8,48 @@ The goal is to demonstrate a full end-to-end machine learning workflow using rea
 
 
  ---> Features:
-	•	Data loading & preprocessing
-	•	Handling missing values
-	•	Exploratory Data Analysis (EDA): distributions, correlations
-	•	Feature selection
-	•	Model training (Linear Regression & Random Forest)
-	•	Evaluation using RMSE and R²
-	•	Visualization of predicted vs actual values
-	•	Fully reproducible and extendable ML pipeline
+ 
+•	Data loading & preprocessing
+•	Handling missing values
+•	Exploratory Data Analysis (EDA): distributions, correlations
+•	Feature selection
+•	Model training (Linear Regression & Random Forest)
+•	Evaluation using RMSE and R²
+•	Visualization of predicted vs actual values
+•	Fully reproducible and extendable ML pipeline
 
 
 ---> Technologies Used:
-	•	Python
-	•	Pandas
-	•	NumPy
-	•	Matplotlib
-	•	Seaborn
-	•	Scikit-learn
-	•	Jupyter Notebook
+•	Python
+•	Pandas
+•	NumPy
+•	Matplotlib
+•	Seaborn
+•	Scikit-learn
+•	Jupyter Notebook
 
 
 ---> Modeling Approach:
   1. Two models are trained:
     - Linear Regression a simple baseline model for comparison.
-    -  Random Forest Regressor a more powerful non-linear model that performs better for housing data.
+    - Random Forest Regressor a more powerful non-linear model that performs better for housing data.
 
   2. Evaluation metrics used:
-	•	MSE
-	•	RMSE
-	•	R² Score
+	- MSE
+	- RMSE
+	- R² Score
 
 
 ---> Results Summary:
-	•	Random Forest outperforms Linear Regression on test data
-	•	R² score indicates how much variance in housing prices the model explains
-	•	Actual vs Predicted scatter plot included
+•	Random Forest outperforms Linear Regression on test data
+•	R² score indicates how much variance in housing prices the model explains
+•	Actual vs Predicted scatter plot included
 
 
 ---> Future Improvements:
-	•	Add feature importance ranking
-	•	Try Gradient Boosting / XGBoost
-	•	Hyperparameter tuning
-	•	Add categorical feature encoding
+•	Add feature importance ranking
+•	Try Gradient Boosting / XGBoost
+•	Hyperparameter tuning
+•	Add categorical feature encoding
+
 
